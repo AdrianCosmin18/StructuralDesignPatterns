@@ -1,7 +1,6 @@
 package org.example.bridge.shape2;
 
 public class Square extends Shape {
-
     public Square(Color color) {
         super(color);
     }
@@ -10,5 +9,4 @@ public class Square extends Shape {
     public void applyColor() {
         color.applyColor();
     }
-
 }

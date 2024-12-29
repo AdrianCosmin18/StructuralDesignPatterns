@@ -1,7 +1,6 @@
 package org.example.bridge.shape2;
 
 public abstract class Shape {
-
     protected Color color;
 
     public Shape(Color color) {

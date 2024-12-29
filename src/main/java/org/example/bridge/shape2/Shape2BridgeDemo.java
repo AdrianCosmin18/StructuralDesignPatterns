@@ -5,14 +5,10 @@ public class Shape2BridgeDemo {
 
     public static void main(String[] args) {
         Color blue = new Blue();
-
         Shape square = new Square(blue);
 
-
         Color red = new Red();
-
         Shape circle = new Circle(red);
-
 
         Color green = new Green();
 
@@ -23,8 +19,6 @@ public class Shape2BridgeDemo {
         circle.applyColor();
         greenCircle.applyColor();
         greenSquare.applyColor();
-
         // in shape 2 nu am avut nevoie sa schimbam shape-ul deloc
-
     }
 }
